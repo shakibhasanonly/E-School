@@ -1,0 +1,272 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header start*/
+header{
+padding: 5px 0;
+}
+.logo{
+	width: 180px;
+}
+.menu ul li a{
+padding: 0 5px 5px 5px !important;
+}
+.btn_sign{
+margin-left: 0px;
+}
+/*banner start*/
+.banner{
+	padding-bottom: 60px;
+}
+.b_text{
+	text-align: center;
+}
+.b_h1{
+	margin: 18px 0 20px;
+	font-size: 30px;
+	line-height: 45px;
+}
+.b_p2{
+	margin: 0;
+	line-height: 30px;
+}
+.b_img{
+margin: 0 0 30px;
+}
+/*feature start*/
+.p_bottom{
+	padding-bottom: 60px;
+}
+.f_item{
+  margin: 30px 0 0;
+}
+.f_h2{
+	font-size: 20px;
+}
+/*course start*/
+.c_h1 h1{
+  font-size: 28px;
+}
+.co_item{
+	 margin: 30px 0px 0;
+	padding: 15px 15px 20px;
+}
+.co_h2{
+font-size: 20px;
+}
+.cli:not(:last-child){
+margin-right: 0px;
+}
+.co_left ul li img, .co_right ul li img {
+	width: 20px;
+}
+.co_left ul li span, .co_left ul li span{
+  font-size: 15px;
+}
+/*Testimonial start*/
+.Testimonial{
+  padding-bottom: 60px;
+}
+.t_item{
+	margin-top: 30px;
+}
+.t_img{
+  padding: 0 60px 20px ;
+}
+.t_text{
+	text-align: center;
+}
+/*Testimonial start*/
+.Testimonial{
+  padding-bottom: 60px;
+}
+.t_item{
+	margin-top: 30px;
+}
+.t_img{
+  padding: 0 120px 20px ;
+}
+.t_text{
+	text-align: center;
+}
+/*fotter start*/
+.footer-top{
+	text-align: center;
+  padding: 55px 0 20px  ;
+}
+.ft-details{
+  margin-bottom: 35px;
+  padding-right: 0px;
+}
+.ft-links{
+margin-bottom: 35px;
+}     
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+header{
+padding: 5px 0;
+}
+.logo{
+	width: 190px;
+}
+.menu ul li a{
+padding: 0 5px 5px 5px !important;
+}
+.btn_sign{
+margin-left: 0px;
+}
+/*banner start*/
+.banner{
+	padding-bottom: 60px;
+}
+.b_text{
+	text-align: center;
+}
+.b_h1{
+	margin: 18px 110px 20px;
+	font-size: 30px;
+	line-height: 45px;
+}
+.b_p2{
+	margin: 0 50px ;
+	line-height: 30px;
+}
+.b_img{
+margin: 0 50px 30px;
+}
+/*feature start*/
+.p_bottom{
+	padding-bottom: 60px;
+}
+.f_item{
+  margin: 30px 0 0;
+}
+/*course start*/
+.c_h1 h1{
+  font-size: 28px;
+}
+.co_item{
+	 margin: 30px 50px 0;
+	padding: 15px 15px 20px;
+}
+.co_h2{
+font-size: 20px;
+}
+/*Testimonial start*/
+.Testimonial{
+  padding-bottom: 60px;
+}
+.t_item{
+	margin-top: 30px;
+}
+.t_img{
+  padding: 0 120px 20px ;
+}
+.t_text{
+	text-align: center;
+}
+/*fotter start*/
+.footer-top{
+  text-align: center;
+}
+.ft-details{
+  margin-bottom: 35px;
+  padding-right: 70px;
+  padding-left: 70px;
+} 
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px){
+/*header start*/
+header{
+padding: 10px 0;
+}
+.menu ul li a{
+padding: 0 5px 5px 5px !important;
+}
+.btn_sign{
+margin-left: 0px;
+}
+/*banner start*/
+.b_text{
+	text-align: center;
+}
+.b_h1{
+	margin: 10px 160px 20px;
+	font-size: 35px;
+	line-height: 50px;
+}
+.b_p2{
+	margin: 0 110px ;
+	line-height: 30px;
+}
+.b_img{
+margin: 0 50px 30px;
+}
+/*feature start*/
+.p_bottom{
+	padding-bottom: 80px;
+}
+.f_item{
+  margin: 40px 0 0;
+}
+/*course start*/
+.c_h1 h1{
+  font-size: 30px;
+}
+.co_item{
+  margin: 40px 120px 0;
+}
+/*Testimonial start*/
+.Testimonial{
+  padding-bottom: 80px;
+}
+.t_item{
+  margin-top: 40px;
+}
+/*fotter start*/
+.footer-top{
+  text-align: center;
+}
+.ft-details{
+  margin-bottom: 35px;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*course start*/
+.co_item{
+	padding: 20px 15px 25px;
+}
+.cli:not(:last-child){
+margin-right: 0px;
+}
+.co_left ul li img, .co_right ul li img {
+	width: 20px;
+}
+.co_left ul li span, .co_left ul li span{
+  font-size: 15px;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1199.98px) {
+
+
+/* Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+/*header start*/
+.b_h1{
+margin: 10px 110px 20px 0;
+}
+/*fotter start*/
+.ft-details{
+  padding-right: 130px;
+}
+}
